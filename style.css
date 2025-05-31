@@ -60,3 +60,39 @@ body {
   font-size: 0.9rem;
   color: #ccc;
 }
+
+.episodes, .socials {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 800px;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  color: #B8FC26;
+  margin-bottom: 20px;
+}
+
+.video-wrapper iframe {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #B8FC26;
+}
